@@ -1,10 +1,19 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7665733&assignment_repo_type=AssignmentRepo)
-Week6 Marvel Exercise New Version
+# LİNK
+**https://marvel-by-furkaner.netlify.app/**
 
-Özelikle dikkat etmenizi istediğimiz noktalar
+# week3 case
 
-1. Auto complete (Arama alanı için)
-2. Detail page (Arama alanında çıkan sonuçlardan birine tıklanınca veya sayfadaki itemlardan birine tıklanınca)
-3. Multi Language (İngilizce, Türkçe, Fransızca)
+https://developer.marvel.com/ API ını kullanarak geçen hafta ki çalışmanızı devam ettirmeniz istenmektedir.
 
-Deadline - 24.04.2022 10:00
+**HEDEF** : Bir React.JS projesi içerisinde API a istek atarak belirli dataları göstermek ve sayfalamak.
+
+**İsterler**
+++ Api üzerinde bulunan pagination yapısı ile projenizde pagination yapmanız istenmektedir. Her sayfa değişiminde istek atılarak o sayfaya ait data gelecektir. Ancak geri dönüldüğünde **local storage % session storage** üzerinden data alınması sağlanmalıdır. Sayfada geri dönüldüğünde istek atılmamalıdır.
+
+++ useEffect, useState hooks kullanımına özen gösterilmelidir.
+
+++ Axios kullanmanız önerilir.
+
+++ CSS, HTML, JS ile devam edeceğiz. Projenizde ekstra CSS sablonları v.s kullanmayınız.
+
+

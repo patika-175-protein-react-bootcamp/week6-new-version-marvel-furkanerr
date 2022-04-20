@@ -1,0 +1,250 @@
+@media only screen and (max-width: 375px) {
+    .Comics{
+        width: 76%!important;
+    }
+    .SearchAndLanguageContainer {
+        display: flex;
+        flex-direction: column!important;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+        gap: 1rem;
+        height: 8.8rem;
+    }
+    .comicsTitle {
+        font-size: 102%!important;
+        font-weight: bold!important;
+        margin-top: 1rem!important;
+        border-bottom: 1px solid #fff!important;
+        width: 8rem!important;
+    }
+    .characterInfos{
+        display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    flex-direction: column!important;
+    }
+    .HeroContainer {
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        min-height: 20rem!important;
+        width: 75%!important;
+        gap: 2rem!important;
+        margin: 2rem auto 2rem!important;
+        color: #fff!important;
+        align-items: center!important;
+    }
+    .HeroImage {
+        border-radius: 0.7rem!important;
+        height: 24%!important;
+        width: 80%!important;
+    }
+    .NavigateToHomePageButton {
+        margin-left: 8rem!important;
+        color: #fff!important;
+        text-decoration: none!important;
+        margin-top: 3rem!important;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width: 600px) {
+    .HeroContainer{
+        flex-direction: column!important;
+    width: 100%!important;
+    gap: 1rem!important;
+    margin: 2rem auto 0rem!important;
+    align-items: center!important;
+
+    }
+   
+    .characterInfos{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .characterInfo{
+        align-items: center;
+        display: flex;
+        margin-left: 4rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .HeroImage{
+        width: 70%!important;
+        height: auto;
+    }
+    .characterName{
+        font-size: 150%;
+        font-weight: bold;
+        margin-top: 1rem;
+    }
+    .heroDescription{
+        font-size: 95%;
+        margin-top: 1rem;
+        text-align: start!important;
+    }
+    .comicsTitle{
+        font-size: 110%;
+        font-weight: bold;
+        margin-top: 1rem;
+        border-bottom: 1px solid #fff;
+        width: 22rem;
+    }
+    .comic{
+        font-size: 105%;
+    }
+    .SearchAndLanguageContainer{
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: space-around;
+        align-items: center!important;
+        width: 100%;
+        margin-top: 1rem!important;
+        height: 8.8rem!important;
+        gap: 2rem!important;
+    }
+    .searchBar{
+        margin-bottom: auto;
+        
+    }
+    
+    .NavigateToHomePageButton{
+        margin-left: 40%!important;
+        color: #fff;
+        margin-top: 3rem!important;
+        text-decoration: none!important;
+      
+    }
+    .NavigateToHomePageButton div{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #fff;
+        background-color: #222222;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        text-decoration: none;
+        width: max-content;
+        height: 30px;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+    
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .HeroContainer {
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: center!important;
+        min-height: 20rem!important;
+        width: 75%!important;
+        gap: 2rem!important;
+        margin: 5rem auto 3rem!important;
+        color: #fff!important;
+    }
+    .SearchAndLanguageContainer{
+        display: flex;
+        flex-direction: column!important;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin-top: 1rem;
+        height: 8.8rem;
+        gap: 1rem!important;
+    }
+   
+    .NavigateToHomePageButton {
+        margin-left: 20rem;
+        color: #fff;
+        text-decoration: none;
+        margin-top: 4rem;
+    }
+    
+   
+}
+
+.characterDetailContainer{
+   text-align: left;
+}
+.HeroContainer{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: center;
+    min-height: 20rem!important;
+    width: 75%;
+   gap: 2rem;
+   margin: 8rem auto 10rem;
+    color: #fff;
+    
+}
+.HeroImage{
+    border-radius: 0.7rem;
+    height: 15%;
+    width: 25%;
+    
+}
+.characterName{
+    font-size: 150%;
+    font-weight: bold;
+    
+}
+.heroDescription{
+    font-size: 95%;
+    margin-top: 1rem;
+    text-align: start!important;
+}
+.comicsTitle{
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-bottom: 1px solid #fff;
+    width: 22rem;
+}
+.comic{
+    font-size: 105%;
+}
+.SearchAndLanguageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    height: 8.8rem;
+}
+.searchBar{
+    margin-bottom: auto;
+}
+.NavigateToHomePageButton{
+
+    margin-left:20rem;
+    color: #fff;
+    text-decoration: none;
+  
+}
+.NavigateToHomePageButton div{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    background-color: #222222;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    width: max-content;
+    height: 30px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

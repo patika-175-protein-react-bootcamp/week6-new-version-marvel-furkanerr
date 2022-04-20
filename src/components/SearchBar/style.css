@@ -1,0 +1,237 @@
+.CharacterSearchText {
+  width: 176px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+.SearchBar {
+  width: 38.063rem;
+  height: 63px;
+  padding-left: 24px;
+  border: 1px solid #f4f4f4;
+  box-sizing: border-box;
+  background-color: #222222;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.SearchBarContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-direction: column;
+}
+.searchCancelIcon {
+  position: relative;
+  z-index: 2;
+  bottom: 60px;
+  left:  18rem;;
+}
+.FoundCharactersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 36rem;
+  background-color: #434343;
+  color: #ffffff;
+  padding: 1rem;
+
+  position: relative;
+  bottom: 3.8rem;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+
+  border-radius: 0.5rem;
+}
+.CharacterNotFound {
+  position: relative;
+  bottom: 3.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  width: 34rem;
+  background-color: #434343;
+  color: #ffffff;
+  padding: 2rem;
+}
+.CharacterName {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.CharacterName:hover {
+  border-radius: 0.5rem;
+  background-color: #5d5b5b;
+}
+
+@media only screen and (max-width: 375px) {
+  .SearchBar {
+    width: 18.063rem!important;
+    height: 63px;
+
+    padding-left: 24px;
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    background-color: #222222;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.FoundCharactersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 16rem;
+  background-color: #434343;
+  color: #ffffff;
+  padding: 1rem;
+  position: absolute;
+  bottom: 34.5rem;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+.CharacterNotFound {
+  position: relative;
+  bottom: 3.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  width: 14rem;
+  background-color: #434343;
+  color: #ffffff;
+  padding: 2rem;
+}
+.searchCancelIcon {
+  position: relative;
+  z-index: 2;
+  bottom: 60px;
+  left: 8rem;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+  .SearchBar {
+    width: 18.063rem!important;
+    height: 63px;
+
+    padding-left: 24px;
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    background-color: #222222;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.FoundCharactersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 16rem;
+  background-color: #434343;
+  color: #ffffff;
+  padding: 1rem;
+  position: absolute;
+  bottom: 34.5rem;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+.CharacterNotFound {
+  position: relative;
+  bottom: 3.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  width: 14rem;
+  background-color: #434343;
+  color: #ffffff;
+  padding: 2rem;
+}
+.searchCancelIcon {
+  position: relative;
+  z-index: 2;
+  bottom: 60px;
+  left: 8rem;
+}
+
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .searchCancelIcon {
+    position: relative;
+    z-index: 2;
+    bottom: 60px;
+    left: 8rem;
+  }
+  .SearchBar {
+    width: 18.063rem!important;
+    height: 63px;
+
+    padding-left: 24px;
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    background-color: #222222;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.FoundCharactersContainer {
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: center!important;
+  width: 17rem!important;
+  background-color: #434343!important;
+  color: #ffffff;
+  padding: 1rem!important;
+  position: absolute!important;
+  bottom: 25.6rem!important;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  border-radius: 0.5rem;
+}
+.CharacterNotFound {
+  position: absolute!important;
+  bottom: 32rem!important;
+  display: flex!important;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem!important;
+  width: 15rem!important;
+  background-color: #434343;
+  color: #ffffff!important;
+  padding: 2rem!important;
+}
+}

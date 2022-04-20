@@ -1,0 +1,26 @@
+.languageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.language {
+  width: 64px;
+  height: 63px;
+
+  background: #ededed;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  transition: all .3s;
+  color: #000000;
+}
+
+.language:hover {
+  transform: scale(1.1);
+}
